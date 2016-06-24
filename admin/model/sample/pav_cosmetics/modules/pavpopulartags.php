@@ -1,0 +1,1 @@
+a:1:{i:1;a:10:{s:5:"title";a:3:{i:1;s:12:"Popular tags";i:3;s:12:"Popular tags";i:4;s:12:"Popular tags";}s:10:"limit_tags";s:1:"9";s:13:"min_font_size";s:2:"13";s:13:"max_font_size";s:2:"13";s:11:"font_weight";s:6:"normal";s:6:"prefix";s:13:"prefix_class1";s:9:"layout_id";s:5:"99999";s:8:"position";s:10:"footer_top";s:6:"status";s:1:"1";s:10:"sort_order";i:2;}}

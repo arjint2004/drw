@@ -1,0 +1,240 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+
+@media only screen and (max-width: 1200px) {
+	.gallery a {
+		width: auto!important;
+	}
+    .pav-custom{
+        .support-id{
+            .support-body{
+                padding: @padding-large-vertical;
+            }
+        }
+    }
+    #logo {
+      text-align: center;
+    }
+    #pav-mainnav{
+        .navbar {
+            ul.nav {
+                & > li  > a {
+                    padding: 27px 14px 18px;
+                }
+            }
+        }
+    }
+    #search{
+        input{
+          width: 100%;
+          &:focus{
+            width: 100%;
+          }
+        }
+        &:hover{
+          input{
+            width: 100%;
+          }
+        }
+
+    }
+    .cart{
+        input{
+            padding: 0 10px 0 40px;
+        }
+    }
+    .btn-danger{
+        margin-top: @theme-margin - 6;
+    }
+    .product-block{
+        .product-hover{
+            .compare a,.wishlist a{
+                width: 12%;
+            }
+        }
+    }
+    #header #cart .heading a span {
+      font-size: 11px;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .product-info .image-additional {
+        padding: 0;
+    }
+    .product-info .image-additional a {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #pav-mainnav .navbar{
+      position: absolute;
+      top: -50px;
+    }
+	.navbar-inverse .navbar-toggle{
+		display: block;
+		float: none;
+		width: 45px;
+		height: 35px;
+		margin-left: 10px;
+        border: none;
+        .icon-bar{
+            .rounded-corners(0px);
+            height: 4px;
+            width: 30px;
+            background-color: @theme-color-secondary;
+        }
+	}
+	.navbar-collapse.collapse  {
+        display:  none!important
+    }
+
+
+	.navbar-nav > li {
+		float: none;
+	}
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+		background-color: transparent;
+	}
+    .pav-custom{
+        .support-id{
+            margin-bottom: @theme-margin - 6;
+        }
+    }
+    ul.links{
+        li{
+            margin-right: 3px;
+        }
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom{
+        position: inherit;
+    }
+    #page{
+        padding-top: 0px !important;
+    }
+    .product-filter{
+        span{
+            display: none;
+        }
+        .limit,
+        .display,
+        .product-compare{
+            margin-right: 5px;
+        }
+        .display{
+            display: none;
+        }
+    }
+    .product-block .product_quickview,
+    .zoomContainer{
+        display: none;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .footer-top .box{
+        min-height: 225px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #logo {
+          display: block !important;
+          text-align: center;
+    }
+    embed{
+      display: none;
+    }
+    #search{
+        margin: @theme-margin - 6 0;
+    }
+    #header #cart,
+    .box-services {
+        display: block !important;
+        margin-bottom: 20px;
+        width: 190px;
+	}
+	.wishlist-info td,
+	.wishlist-info th,
+	table.compare-info td,
+	table.compare-info th,
+	table.pav-checkout-product td,
+	table.pav-checkout-product th,
+	table.pav-shop-cart td,
+	table.pav-shop-cart th{
+		border-right: 0 none;
+		display: block !important;
+		float: none !important;
+		text-align: left !important;
+		width: auto !important;
+	}
+	.wishlist-info tr td:before,
+	table.pav-shop-cart tr td:before{
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-align: left;
+		white-space: nowrap;
+		width: 50%;
+	}
+	.wishlist-info tr td,
+	table.pav-shop-cart tr td {
+		text-align:right;
+		display: block;
+		min-height: 20px;
+		border-left: none;
+		background: none;
+	}
+	.wishlist-info thead,
+	table.pav-shop-cart thead {
+		 display:  none;
+	}
+
+	#header #cart, .box-services {
+	    margin-left: 35%;
+	}
+    .product-block .product-zoom{
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .pav-slideshow {
+		display:  none;
+	}
+
+}
+@media only screen and (max-width: 480px){
+	#header #cart, .box-services {
+	    margin-left: 20%;
+	}
+    .product-filter > div {
+        clear: both;
+        display: inline-block;
+        margin-bottom: 5px;
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 320px){
+	#header #cart, .box-services {
+	    margin-left: 19%;
+	}
+    .product-info .image-additional a {
+        margin-left: 25px;
+    }
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #pav-slideshow{
+    .tp-leftarrow.default,
+    .tp-rightarrow.default{
+        top: 50% !important;
+    }
+  }
+}

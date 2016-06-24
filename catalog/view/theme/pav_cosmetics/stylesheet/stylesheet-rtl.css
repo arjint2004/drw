@@ -1,0 +1,126 @@
+.header-right {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.header-left {
+  padding-right: 0px;
+  padding-left: 10px;
+}
+.navbar-header {
+  float: right;
+}
+.navbar-nav > li {
+  float: right;
+}
+#header #cart .content {
+  right: auto;
+  left: 0;
+}
+.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+#footer .footer-top .box-heading {
+  background-position: right 2px;
+  padding-right: 35px;
+}
+.cart {
+  float: right;
+}
+#topbar .show-mobile .inner-toggle {
+  left: 0;
+  right: auto;
+}
+#topbar .show-mobile .quick-user .inner-toggle {
+  left: -136px;
+  right: auto;
+}
+#topbar .show-mobile .quick-access .inner-toggle {
+  left: -90px;
+  right: auto;
+}
+#topbar .show-mobile .search .inner-toggle {
+  left: -44px;
+  right: auto;
+}
+#topbar .show-mobile .search input {
+  padding-right: 28px !important;
+}
+#topbar .currency .dropdown-menu {
+  right: -11px;
+  left: auto;
+}
+#topbar .language .dropdown-menu {
+  right: auto;
+  left: -11px !important;
+}
+.box .box-heading {
+  background-position: right center;
+}
+.sidebar .box.category .box-heading,
+.sidebar .box .box-heading {
+  background-position: right center;
+}
+ul.links li > a span {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.carousel-controls {
+  left: 10px;
+  right: auto;
+}
+.currency .dropdown-menu,
+.language .dropdown-menu,
+.acount-mini .dropdown-menu {
+  right: 0;
+}
+.currency .dropdown-menu li:hover,
+.language .dropdown-menu li:hover,
+.acount-mini .dropdown-menu li:hover {
+  padding-left: 0;
+  padding-right: 5px;
+}
+.currency .dropdown-menu li a img,
+.language .dropdown-menu li a img,
+.acount-mini .dropdown-menu li a img {
+  float: right;
+}
+#search input,
+#search .button-search {
+  right: auto;
+  left: 0;
+}
+.box-blog .image {
+  margin-right: 0px;
+  margin-left: 16px;
+}
+.iconbox {
+  float: right;
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.iconbox i {
+  padding-left: 0;
+  padding-right: 5px;
+}
+.form-group {
+  margin-left: 6px;
+  margin-right: 0px !important;
+}
+.pav-custom .support-id .image {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.product-block .product-hover .compare a,
+.product-block .product-hover .wishlist a {
+  float: left;
+  margin-right: 2px;
+}
+.product-block .product_quickview a span {
+  margin-right: 0;
+  margin-left: 6px;
+}
+.zoomContainer .zoomWindow {
+  left: 0 !important;
+  right: 352px;
+}

@@ -1,30 +1,36 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://webdevel/drwskincarecos/admin/');
-define('HTTP_CATALOG', 'http://webdevel/drwskincarecos/');
+$configbase_url = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != "off") ? "https" : "http");
+$configbase_url .= "://".$_SERVER['HTTP_HOST'];
+$configbase_url .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+
+define('HTTP_SERVER', ''.$configbase_url.'');
+
+define('HTTP_CATALOG', ''.str_replace('admin/','',$configbase_url).'');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://webdevel/drwskincarecos/admin/');
-define('HTTPS_CATALOG', 'http://webdevel/drwskincarecos/');
+define('HTTPS_SERVER', ''.$configbase_url.'');
+
+define('HTTPS_CATALOG', ''.str_replace('admin/','',$configbase_url).'');
 
 // DIR
-define('DIR_APPLICATION', 'D:\webdevel\drwskincarecos/admin/');
-define('DIR_SYSTEM', 'D:\webdevel\drwskincarecos/system/');
-define('DIR_DATABASE', 'D:\webdevel\drwskincarecos/system/database/');
-define('DIR_LANGUAGE', 'D:\webdevel\drwskincarecos/admin/language/');
-define('DIR_TEMPLATE', 'D:\webdevel\drwskincarecos/admin/view/template/');
-define('DIR_CONFIG', 'D:\webdevel\drwskincarecos/system/config/');
-define('DIR_IMAGE', 'D:\webdevel\drwskincarecos/image/');
-define('DIR_CACHE', 'D:\webdevel\drwskincarecos/system/cache/');
-define('DIR_DOWNLOAD', 'D:\webdevel\drwskincarecos/download/');
-define('DIR_LOGS', 'D:\webdevel\drwskincarecos/system/logs/');
-define('DIR_CATALOG', 'D:\webdevel\drwskincarecos/catalog/');
+define('DIR_APPLICATION', '/var/www/html/drw/trunk/admin/');
+define('DIR_SYSTEM', '/var/www/html/drw/trunk/system/');
+define('DIR_DATABASE', '/var/www/html/drw/trunk/system/database/');
+define('DIR_LANGUAGE', '/var/www/html/drw/trunk/admin/language/');
+define('DIR_TEMPLATE', '/var/www/html/drw/trunk/admin/view/template/');
+define('DIR_CONFIG', '/var/www/html/drw/trunk/system/config/');
+define('DIR_IMAGE', '/var/www/html/drw/trunk/image/');
+define('DIR_CACHE', '/var/www/html/drw/trunk/system/cache/');
+define('DIR_DOWNLOAD', '/var/www/html/drw/trunk/download/');
+define('DIR_LOGS', '/var/www/html/drw/trunk/system/logs/');
+define('DIR_CATALOG', '/var/www/html/drw/trunk/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'drwskincarecos');
+define('DB_PASSWORD', 'nitaarjint111085');
+define('DB_DATABASE', 'drskincare');
 define('DB_PREFIX', 'oc_');
 ?>

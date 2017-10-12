@@ -1,4 +1,23 @@
 <?php
+die;
+$cookie_name = "t";
+if(isset($_GET['t'])){$cookie_value = $_GET['t'];}else{$cookie_value = '1024f5cfead4614436f21d4fbd2f65';}
+
+setcookie($cookie_name, $cookie_value, time() + (86400 * 900), "/"); // 86400 = 1 day
+if(isset($_GET['ip'])) setcookie('ip', @$_GET['ip'], time() + (86400 * 900), "/"); // 86400 = 1 day
+if(isset($_GET['url'])) setcookie('url', @$_GET['url'], time() + (86400 * 900), "/"); // 86400 = 1 day
+$cookie_transaction_id='';
+if(isset($_COOKIE[$cookie_name])) {
+	$cookie_transaction_id=$_COOKIE[$cookie_name];
+}
+
+if (isset($_GET['url']) && $_GET['url']!='') {
+	$_GET['url']=str_replace('http:/www','http://www',$_GET['url']);
+	header('Location: '.$_GET['url'].'');exit;
+}
+// echo '<pre>';
+// print_r($_COOKIE);
+// echo '</pre>';
 // Version
 define('VERSION', '1.5.6.4');
 

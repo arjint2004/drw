@@ -1,170 +1,398 @@
 <?php
-// '1673637882907948', 
-$page_idx=array(
-	array(
-			'id_page'=>'175233296193186',
-			'name'=>' : Almaira Mazaya Namiah',
-			'token'=>'EAANZBuUrzl8QBAHHOrNOYmnBNkIJuNMtoJjDNXrpK9zcKRmevZAlmrHZAw6ukl3ZCIZAHbZB7MFMsTtDz3FzSZBJtPKQKaQrQVPiyD7A49cGCs4Usq0Xuw2PHjwU1kyhvC1vZBZBfbmxXKYknQUjeMZAPZArEf8xx07Qi8ZD',
-	),
-	array(
-			'id_page'=>'471804356343979',
-			'name'=>'Drw Skincare Jogjakarta 5',
-			'token'=>'EAAQNFC7OuZCUBAOqH2XVAqVmymKDq7YTrOKwxEDCrYQkfPhRtbLE6Dm52RR1qFZAh0hsWXmc53MMohmHPnfRgPVgbARnEbeZB3ng1fKTVKd3ECPD3EQt2cgxZAcx57gJOL8tlnrZBmqpwgbZA4MLPzZAYI5GT9uwMuAUdRXfA8fbQZDZD',
-	),
-	array(
-			'id_page'=>'1554536478180413',
-			'name'=>' : Drw skincare Yogyakarta 4',
-			'token'=>'EAAQNFC7OuZCUBAMQ5EJ8TT5rQeie8nwNUzJhuUS282YumgZCGhfo2D01SOQgUdJvo9gY5MsGsSuDC1XYUZBZArsYKUZAUa8TGyUe1uynk6ICYEISH5JMMWcQGgVNkoW2gVZBeIf9r8ZA9f2TiTX83rqrYorYrylEHdrrlHcIB801AZDZD',
-	),
-	array(
-			'id_page'=>'461289160731309',
-			'name'=>' : Drw skincare Yogyakarta 3',
-			'token'=>'EAAQNFC7OuZCUBAB6z0DSbisJAdkRaOkinAowav5ZA2HlQZBLmNotjBY383008UFCoCzZAbHXvIPIZBGbEsFbdd5RwaGuwqmldmKwcFR5xOJhVrJN7GHQEvBGufZAcdtfulRaRQuQJofPykjaiqDoxD4kpM01TiulTV8LLmpISVqwZDZD',
-	),
-	array(
-			'id_page'=>'1735970899981370',
-			'name'=>' : Drw skincare Yogyakarta 2',
-			'token'=>'EAAQNFC7OuZCUBAOiLZC7EgJPLzVB2WuzQgKaZBpafqp6RiMAwjQfIZB7BZBJtRnR1KpVqv07JHTy06rVywNDDTjnYM5kk8EkTQ52O1QQXFZAddgFnpYwZBd5h3c3qFvaKVw9w8rjpDyQYVZAJIMDY3MBiJTVn1xyUkYJng3LEwHq0QZDZD',
-	),
-	array(
-			'id_page'=>'1688907621397716',
-			'name'=>' : Drw skincare Yogyakarta 1',
-			'token'=>'CAAQNFC7OuZCUBAFVnxZBunJ1xkqjMokA5y7Y0dna5vpgWZALvGhTeoQoTwLCaIqPo2dciJ9Otwk282EUEJah2e4lJJFAgPihOz8OTT1sJKZAXxaCW9LeHbc7ZAjbnVcnbReJKYus313pGPZCiGIxzmxvAAcpGwwZCKyZApeBehcMmWaZA36drAjD9RNaZBvDXC7pAZD',
-	),
-	array(
-			'id_page'=>'184819698573479',
-			'name'=>'NIta Dr-Skincare Jogja azzura',
-			'token'=>'EAAQ23ZBZBZCLq0BAJ5Ys7c5iPvSZByazqVeC4xEs8Ps9MN2kBNqh6YV62pZA8yiRbzOzx1FwZA27TyGSg5cHZCVc0beJMZCEGtRFWk61KxG562n79nsxtxZBYgaHyVUnCvU9dSFib6o5U9bZAqCUCS2NqmRdrsrpb8OngZD',
-	),
-	array(
-			'id_page'=>'162214867495922',
-			'name'=>'FB NIta Dr-Skincare',
-			'token'=>'CAAQNFC7OuZCUBAENsh1mroaLuko68rUG21RCAVEXZAnwVyStA5oyf8J4CUWPXwEKEeICzvFZBW3sspYOxulwsVtwmBHiJtLGsATOvkxoZBlGZAFOjO8ZA6cnmCGvvltBBZAaDZAPd9N0eAavJEAQbfbEEfPHUBgDmJ6HpFMfDuo1DN6AvZB8pEZBL6sBlZCFfpUh6kZD',
-	),
-	array(
-			'id_page'=>'1673637882907948',
-			'name'=>'Drw Skincare - Dokter Skincare Indonesia',
-			'token'=>'CAAQNFC7OuZCUBAI5TENghJPLxVQNzCktzP8z7ugCWtUeayDp3NWkyCxOP17uI8EmGcD2Onkoh5tAp5z8I0ahRV6H2EzcxK3ODSxSTB5CqdyPzRZCZCVqcSpdP2SZAyVC68QXqfrDflZC3shKvCFcl8hjHLVTYPozFXcDQgiyxqZCXQ1VE9dU1vGSUA1GYVdCIZD',
-	),
-	array(
-			'id_page'=>'1107412485958871',
-			'name'=>' : dr-skincare.com - drw skincare',
-			'token'=>'CAAQNFC7OuZCUBAEZA8P32guGaZC474KFKKy2oMCDUJ9xjtNe871NlV6UlIRbhU1T5ZCjOkyMo3TDVdBYFgXCAXBjz8zZCL7cC4L5qBLGoXmsZBsGQMy256ZB3hXckoCTh2hHsx5ZCF2KZClWWCZBeJGUo3ZCh57mbuxvbCJLgYhPFLVRXlFdx4b9rSDepXuMuHUpzAZD',
-	),
-	array(
-			'id_page'=>'138434063212573',
-			'name'=>' : Drw Skincare - jogja',
-			'token'=>'CAAQNFC7OuZCUBAArWO0kxY7ZAEybyHsU4rRhCUIy9PehNbBGqg5zoer8kBC8tt93bUJp9S9tanIM7WI7GHytVlzwZBcraz4dxdXthAQKqcUZBG5NOB4IJLNLE4JoFZCreWOwPK5GwoZB2PxgX1npS6lZA5fMNinAbzZARzqCnfTRucspwCIjOHy7rkJSvLUbgXkZD',
-	),
-	array(
-			'id_page'=>'863468093774223',
-			'name'=>' : Skincare Indonesia',
-			'token'=>'CAAQNFC7OuZCUBAO78E7N9v6ZB8tWTIZBMdiF2DAPFOOpJ9ANiPfw2HAF1ZAbBH1ELV8S4d1t4VuEHByZC7kUA4dxzForSASLT6OLrUrZBcVAZAYyFZBZBWQ2dS8uonoJIY0YfZAVdT7qCinNAE9t5HMofXVO0T9xkqZBGGS47PXP8xgh1tiD7O8r8vHvtLVtULKQ4sZD',
-	),
-	array(
-			'id_page'=>'986592324759510',
-			'name'=>' : DRskincare Agen Resmi Jogja',
-			'token'=>'CAAQNFC7OuZCUBAHwYcOXuhWw6gbkX162JkwobBRZC4W2CAdhmXx3L54pZCK6DtpHa5jux67Fyk51DPj3gnF29J663vtvLE4OI74pEZC5gTBelxLwI9juR9ZAKZBZB5ZALjYp4qBTbPrUu3njhIJZC0rPJ8Iq4GBTeoo9RQNHGsD7XDZBYaNNSwam2ykuanMhCJJuoZD',
-	),
-	array(
-			'id_page'=>'483045651884461',
-			'name'=>' : Drw-Skincare',
-			'token'=>'CAAQNFC7OuZCUBALZA9SZCjW0WMQQDRNcuIU3Xzx3xhjoy9y7DOUSDhgt9EjjW3r2elCAEBLwmrmZAl09ZCnGilVmGA3KanKAlCnn8LNoadwAWYqcqK7BYQTVr3zNfZBY6lMTLrhEa4C6mWq6NPhts4ZAYOFb5ZCnmqBZB3iTzJy5amXpeDjn77mt6d9yVR9tedBEZD',
-	),
-	array(
-			'id_page'=>'536046079900695',
-			'name'=>' : Dokter Skincare Indonesia - DRW Skincare',
-			'token'=>'CAAQNFC7OuZCUBANL1N6sZAy4QCC8Cuj0lZAcFXCo7362a2CgnYa54rwesOwffL7PMZClBib0adIZAiLCen0V3HJKOgZA1EZBWGTRucWjmEIysZB54GeIqhUmH1uBMISHtviJ3iaDi1RSVrTuf2H6YNmCqLQqgU2uvk2q9f08MZCTndaZAMO8vIVNWux7mF7flXqjgZD',
-	),
-	array(
-			'id_page'=>'1497147020594255',
-			'name'=>' : Dr Skincare Indonesia',
-			'token'=>'CAAQNFC7OuZCUBAAz3unC1S93JTXLLbsYF2mMRwBXiIzeeFF6i9xgzxmkVOBncwWIc9QjutCweEvDeQHFp4uwwZBBiPU4Cnd6sHqHizFwsTQavUbwgTvlPfq7aLHNwrUjsSG0jaGiLu33roLpI4ZBByGfCtgqC4ERzKmUIcm1LzRtuptmdhqSl6qjoLL9HAZD',
-	),
-	array(
-			'id_page'=>'1700437300200319',
-			'name'=>' : Drw Skincare by Dr. Wahyu Triasmara',
-			'token'=>'CAAQNFC7OuZCUBAGvuEl97x5LKbXZACYfVMW0SYOrbPcLK5pxnnPL27tJrGm8fVgylbS2vJ1vUZCCi0HEYp82Y2waD66FYQxkDaiVZC4ZA5kmifZBXV7nMN2JBIy6XA14jK8puCgMhpQM8s212AgpuZB3bY5ChSzTcUvtvgFVjEYIDz8keJ4FG3hnl2SFINKRMIZD',
-	),
-	array(
-			'id_page'=>'568989436603737',
-			'name'=>' : Dr-Skincare Jogja',
-			'token'=>'CAAQNFC7OuZCUBACUZA8xDAW2kEzcXtvZCZBVpL47SeiuIfVRRzvu0cq34kulVKqH1K6gnpENQNUkW7vY7fUX9T2T0FrKgifqknxI0nO95iSRWSXYj0ZBsTyp97nCmCfDxLb1ZCf97dZBW2IeHvvstSkqzWakM6eAihQHIiJwMpWkFanxMD1RVisjXr7KmmTfC4ZD',
-	),
-	array(
-			'id_page'=>'189466248089460',
-			'name'=>' : DRW Skincare',
-			'token'=>'CAAQNFC7OuZCUBALF18H3J6Dv3Q5Uio9EQBENcR5sRRusB420fJZBxLMYDZADVw6JfZCY27GTOWKeP8cEv7HdmKuYFnisBKoFFhsEoElYikGxcDUhQRbT81lDRYOVQpSltlYgiNzpQZA9hnz1jtTCkqv37uYClybbEZCrdQBL8hcZAJD0i5AWMBP3fU9WEyPkwwZD',
-	),
-	array(
-			'id_page'=>'188513891514577',
-			'name'=>' : DRW Skincare - Dokter Skincare Indonesia',
-			'token'=>'CAAQNFC7OuZCUBAAkDuDfnVAC84keG2gJCZA7wxcbLGUgmuRZBiM28H1JfXTdWZCwZBzQmGg4gMsR93UTKzz3y0TWw0MllW6ljwBryMCUIvX9eUJxcQ8BAeYzMkgpbSr7DeXhY3vcdLUBKsr75m1GRoTgwfgH1L0AaVUcrYDmVNcmMIducGO1tKjqVVxRXtYEZD',
-	),
-	array(
-			'id_page'=>'759318687501592',
-			'name'=>' : Dokter Skincare Indonesia DRW Skincare',
-			'token'=>'CAAQNFC7OuZCUBAHsXoSdV8dZCv5qKNTOuOKowadTrbKG0xxzouA6XjcO2DsuMglP7jzlTkKBciuGAQwXKYEZBW8vNaCMoV6GDptJbuBZC7nX2fYN2Ju3MTuaJnzo1FYLGsoxZAZBq9DHCwHaviBaZA2obAhhiAo1LfFvwkNUixBtO9gpctq0OLSwtQp82DpeK8ZD',
-	),
-	array(
-			'id_page'=>'1684131385198116',
-			'name'=>' : Dokter Skincare Indonesia / DRW Skincare',
-			'token'=>'CAAQNFC7OuZCUBALDXXiKgT246gjEOjgY96HYv58IDyJBcRlFvdsl7xKU7Rjcg29Ba9tUN4xvoY6xrB4eJJBQCZAxSEQHJzZBmrMgv3LZAFhKQKcikDH1iBhZAyzV9VA2noEPltz67XvXyUzJO0x6NgX0cnjCCsQZCHlPnwsWMZB3wI2ZA9ErKvBSCgoF3UZCiBZB0ZD',
-	),
-	array(
-			'id_page'=>'455525237978459',
-			'name'=>' : Dokter Skincare Indonesia DRW - Skincare',
-			'token'=>'EAAQNFC7OuZCUBAFIyyeVb0mZAMfauoXCPJrg6r755WpAfS4xyiIqQqAHgZCyvm3HHNpYpwqtfxMkzOiem5K58crxV5EFQ1VKCZC8xah3bYQbsM1s9EZBMdPbJZCo6Xg1zKmTxRmYrsmyYeU3hPPLMcDTPiCt5XJ2FJY7wlsznoHgZDZD',
-	),
+error_reporting(1);
+$json='[
+      {
+         "access_token": "EAAQNFC7OuZCUBAHbYIkisw5tMErUTM2DX4GPIfXAD0O3iEPaJ9K9yacigQHKAPIVMHducMZBFzPTXaC7nmjutdBdGpf2kZALKxmE6d0VJfAfXWFJEXNF0CvDEgFlUXoK97xHGaP86usee5Ia8KaQzHWdes0st7XJ993j2LTdAZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw Skincare Jogjakarta 5",
+         "id": "471804356343979",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAJIXdZA6zTWe1XyZAvjvdA6KtK1GEE5isi26tMBYp8K1QV9ke48kiVawL2A3FEv5qIHRs23gnjxgku5YSgNnM7MtG2XzSqrHUcZAg9gTSZCC2S9srdrvfoO4MCrFTaGY3rR1MnCHhilcM8FYmgha8iXz1fleVQZDZD",
+         "category": "Health/Beauty",
+         "category_list": [
+            {
+               "id": "2214",
+               "name": "Health/Beauty"
+            },
+            {
+               "id": "144873802247220",
+               "name": "Cosmetics Store"
+            }
+         ],
+         "name": "Dr Skincare - Dokter Skincare Indonesia",
+         "id": "340321416298875",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBALkj5IMNjMgFNSv1FBo8HKVF4pvcMQn1zlJCitlyOFLHUeftj5Y5pUmL34ghzgogw5J5JZBiKscbi36M24xM5HnjAann4GalOZBPgCgao257GpJtNjgDeZAwWLHcXJZB1AsAoPs804rW5DgBiy9gLfvFQ37uGAZDZD",
+         "category": "Health/Beauty",
+         "name": "DRW Skincare",
+         "id": "189466248089460",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAJhVMJ1Un6PjM5UqUSiNTZAKiK8WUAcdNxzo95cz8s84TmMlwGGvjYVlpTlZCu3fyihyPLrZCqcwBWZAGyre8t0v8qISS6poZC8684OqukUThjXqTWyvq8Tt1mRvTEpbb8TACdhoQGz1ZB1iRA4IDeXYCHSeTxWgZDZD",
+         "category": "Health/Beauty",
+         "name": "Skincare Indonesia",
+         "id": "863468093774223",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBACCWFvZAV2qAo53v7XZBR8joDFBouoXk6wWL4KAIJZCYSlxJEwR8x947nZBc4ELrtgIxxYBfvc2ZBoWFvnskGZAdX0xwIGELKv8979jx7mZCUpA6ZCvMOZCOK7EpxnCdEEdsTAjHZBroNGolLP5ID0xq8MChgC56zkVAZDZD",
+         "category": "Health/Beauty",
+         "category_list": [
+            {
+               "id": "2214",
+               "name": "Health/Beauty"
+            },
+            {
+               "id": "144873802247220",
+               "name": "Cosmetics Store"
+            }
+         ],
+         "name": "Drw Skincare - Dokter Skincare Indonesia",
+         "id": "1673637882907948",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAM0eyPaKZB8t89t7ZCSpR3tvrPA0ZCLjoYbAyJcOw4kvGxYQY0yAw0aEvZADOOgNZBFzqCHEam1ALqGG5yAyfZAbI2QI51Fum9RZCeG8abTYgijtZAunwzNZABTygPnpxsnZBDnUgAhTRGZCEM3WbxQAQjrRedDTZCFooQZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw Skincare Jogjakarta 4",
+         "id": "1554536478180413",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBANFAkd8jXZBAOtscmgSSygtszXPgVZAZBafoy8oD9aBVi00wT6sGmghPg5v0Okz13opZBf6rgTehZB2wOvNaeuNoihk6ZClOjetgqhQ9hf0RcyyyA2aB9Rcza3rr2Cz7yWxeMdsP7Q1Nh3ZCBnJsXCgXZAzyOaRBqAZDZD",
+         "category": "Health/Beauty",
+         "name": "Dokter Skincare Indonesia  DRW  Skincare",
+         "id": "759318687501592",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAKZBNwHhO8TECdZAjgxpZAWS9ZCmZCu3h7WQ0DJxAQIN4hCbdkczS1ZBNeFwacPEbasMOHahywVxbipTnzfuNVSFO75klWypKl8BZAqZBUZCqlFhd72oTEPEnUIYzcf86BCokA3zzSTsHkZCZAYcOPP2AUsKQKOaXLZCoQZDZD",
+         "category": "Health/Beauty",
+         "name": "Dokter Skincare Indonesia / DRW Skincare",
+         "id": "1684131385198116",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAMV1156XajpIQaCV9gfY20bLZCBZCLxJAg551MYCOJ13qtLm6ihujpPKjJuevhjh7jZBGgvr6bUBfb4uOhYryjUEdRzkqY4ZCrJDiBtSftZCxKxYclL8V7MqdpRc8Di6g8ZAx7xdAJzzoZAHZArYfwc6ecYKqksNNQZDZD",
+         "category": "Health/Beauty",
+         "name": "Dokter Skincare Indonesia - DRW Skincare",
+         "id": "536046079900695",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAC9FYYCAEaOZC7BY1cI0M3Qo0XhUTw4vg7sk5GZCcDiyjgOxPnozYIWNskZAmX6d3uXkrjafZAxY0I0abBCOHU7gEoc5ZAf2j8ZB3bY4ti3KMUegGMUU14TZCnZCYoKEded7ZA5yIuajkEHbO5Ti9s2X2XqbU79BCxwZDZD",
+         "category": "Medical & Health",
+         "category_list": [
+            {
+               "id": "145118935550090",
+               "name": "Medical & Health"
+            },
+            {
+               "id": "1644814599176740",
+               "name": "Skin Care Service"
+            }
+         ],
+         "name": "Dr-Skincare Jogja",
+         "id": "568989436603737",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAB3PMUBiERbCLRE7mhr8JdtjtkJrty9G5giSvJP5yJcpQHoZACIdJv2AxhktbW79BZCZCA3svIRZACa8UaWKMZBwpuqWY4R2zMFQZCwWnJaiblxMk3pIgsNHTZAHQr9W24pFcO2uvqRygjrz0F4CYZBltrjCGa7GawZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw Skincare - jogja",
+         "id": "138434063212573",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAJDGnZC2fzd85nsRnFsnw4jUZCj7DjTJlOXHniPWxB2xuLpvwJ3WDeyDjzZBjEkRFbEnCiPSw7flrW42qyIvOdmfxfEYDEurDWKZBT5Xd6MTYOJZACJHRZARi9XBVp1FfpYJZC6pkolQCn0fLAdA4REmc3C34erTQZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw skincare yogyakarta 2",
+         "id": "1735970899981370",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBADBvp4WOB31oXrDMCllrj3uZCfiejtGrxofN9ZCMfLV44HUM5xfK8Ja9ktd5ro7TslGRgpacNRGmJzhjYiiVSslNyRZAYB5W9iG4CMICB6uHfemrFZAEilelPD9Az3WaRVM8By0F27qxpV1ZChhtIZBnhlZAZBIrnAZDZD",
+         "category": "Health/Beauty",
+         "name": "dr-skincare.com - drw skincare",
+         "id": "1107412485958871",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAFCXAqoZAL9GQYJAnL5ZB0OeY4WJTEXNN1ibZAUHkshhfRabBpCdvJS0o2ZAsX0j4v9dRRvrjUxaNEE1hKGAddUtfERIeJVRiWM3VJGOHluB1xXqw3bcGd9Uoc5RvYpvX3A20kDG9pbVlzgFt4yWj6P4sume0AZDZD",
+         "category": "Jewelry/Watches",
+         "name": "Cantik bersama drw-skincare",
+         "id": "766053486896212",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBANbMtxUDVtH8inmXDAPFpZADQsnlglcHp78BmCoqH7qGm9LeotU4ZBr6TZCDmBxoFxjZAo2xuaSfxkr7ZBwnJ0477PUZBU6lNSTT1CBraGsXGEZCAnTyhZAk2k2dfGRZBHSViotjQNOEDkIZBQfWt6TYblKMzTeTaw9wZDZD",
+         "category": "Health/Beauty",
+         "name": "Dr Skincare Indonesia",
+         "id": "1497147020594255",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBACotvcO6t5Kmb4VlMPnMvBrkVAOZAXRiA8B7np46v40nRIG9EH4HDcIAeDlpgbe56ivATcZAxdwa2dos8ASidcrNTvLpn0OZBR7BOyLxF2frfXufZCNsFm0KWEJMnwwdpuOEWZAoZBT4GVJGMmIM0roOpM1TA38AZDZD",
+         "category": "Health/Beauty",
+         "name": "Cantik alami drwskincare",
+         "id": "150088885475717",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBACBtcpDjCZBO0DZCZCEsTtNWVExYT9gMfUuRL02S8vl5XavwDLZBrUrdglVnhY3TAlCqBk9k38Eo0YTQFdmhsAVKwvuoSSsaPHI8mSEpAlfEcPAFK07bZBmQMTbPQ57U8OlvX0yUCBjsP8h9mSSCJsEXnNW9STAZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw skincare yogyakarta 1",
+         "id": "1688907621397716",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBABpZAXPNJMH5YewmSZCpGDm2qPdQYnL6Oc2BK7mfpN0SC9yaBxDB6lR7jweY5HkG0lwdvLXKeZADJCwPAKrZBDGrHsQNAdeVhnZBhHbkm77ZB32ielyCsNY8wOPNC4Aa2uZAjWHidnglKqj8LYPC32TouytFLJSfAZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw-Skincare",
+         "id": "483045651884461",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAL3oF3PB3AdXy4SZBaJzfuGG1acL5lPMfw2KwiBZCiQAiROydk8RNcPvpSx9c1JiZBcqRzPMluw4DSjNdxBY1I6pmVYPHMFj3lH24GZArfQhDL8IQlzCBoW6xtjbSKfmp0utnDV7a4OKyz3VomnZAasfsO4ZCOrwZDZD",
+         "category": "Health/Beauty",
+         "name": "Dokter Skincare Indonesia  DRW - Skincare",
+         "id": "455525237978459",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAJTWI5ycd9gJgWZBeZCLEZB2hCWH0sClxXMoE7W4Ms7FDZBWZBR9HXxgLZBKI5Ixz2cEToUOuib9NU5WhNvWluKpleKZB08ZBxVR0DKLw9I3Ktv5buIC3IEojupIiuKqUFmRuZAYVYuSIRBcaZCZBYNjLK4PRxBGif0jwZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw skincare yogyakarta 3",
+         "id": "461289160731309",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAGikYe18ZAHiNsOCmU5ErOh1htTLS32YxEQbunV7LZBdtvHFM33z6961Fptfa8dthu9807EB9ltnlOGevrRdU0cuK95O21KTN3HCQXy4zM1YyByHlZAxoUj8yZBH5QEFsNYGF101RT9YPIZBPPtRfwcxZBKKE7jgZDZD",
+         "category": "Health/Beauty",
+         "name": "Drw Skincare by Dr. Wahyu Triasmara",
+         "id": "1700437300200319",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAJmbpVnA0YR13MKuTU1gSyBlriavR7S7WBDulF5T0SmVwXepaPKZApj3NCsgM5yqU77HG08yIfGD105QTcqpCTLhznpaWz8CfZCWA3zA4brVk76UJ6dafeGtcj1dKhqzUFGikOzhZBMgZAf0eHkAQROgVuZBfewZDZD",
+         "category": "Health/Beauty",
+         "name": "DRWskincare Agen Resmi Jogja",
+         "id": "986592324759510",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBADrEp9SUBw8mq17A7ZAYw3TSQjZCcU6Yr2YA2vdn9rqZApKZBLDjlI0owNeg2p6urtlwN0kciu6J8HFKncNuvONZC3Eq98cOq02csyEEI1vEJU1jKIKHNZAzOPxnHx2nb7YuZAq0gTSE4NKXXjNvfDiJevkFY70KAZDZD",
+         "category": "Cosmetics Store",
+         "category_list": [
+            {
+               "id": "144873802247220",
+               "name": "Cosmetics Store"
+            }
+         ],
+         "name": "Mazaya Kado dan Hadiah",
+         "id": "1603785096539282",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAM8iNqeontq7lW3igAJfaGO7JDaZBB8ZArQ9gt2x7yajUeh6foJJGybXxYj0lpZBwpl4K6qlDJhxvXi7yZAFKPvB5ZCzRZAH4ttMNeKUP5LjZB4Lc1eRfzwzNBfQKYklMVaVZCF72ztcZBY86fxOZBC68mePfIBBRZCZCwZDZD",
+         "category": "Health/Beauty",
+         "name": "DRW Skincare - Dokter Skincare Indonesia",
+         "id": "188513891514577",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      },
+      {
+         "access_token": "EAAQNFC7OuZCUBAHOZAjhlpTEtZABZBZBlwKqiQLCOgTqBPTNPIZBqfxPA6j8IFz3f4ZADETiZC54ZC1iVZCfjOVzo3w2AhFVhqk3SkGyfduBEWBGekC0pxsZCxo4ZCQY7YfB4E5EOZBeZBKxm7w0ztd3e1zJXFHxZBuRxqnAWrEfRXEr6t6wQZDZD",
+         "category": "Computers (Brand)",
+         "name": "TIps & Trick Komputer dan Internet",
+         "id": "782049511872095",
+         "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+         ]
+      }
+   ]
+';
 
-	//ALMAIRA MAZAYA FB
+$page_idx=json_decode($json,true);
+
 	
-	array(
-			'id_page'=>'965149793606772',
-			'name'=>' : Dokter Skincare Indonesia - Drw Skincare',
-			'token'=>'EAANZBuUrzl8QBALCrf3Qj9QV4yEeMxfV9M5r1wvRGORnmvSL4vb9ZCocmT0cn24aXShyWHsZBfcZCHE4NMYPOc72kRMZCoriLcoKLjUZAy6ZB33M8FDa8ZBtwmfuufjCyqCPH8rcmhcR8NJMtOYpLSvYZCCxooQicJwZCPhGj5kIRhCwZDZD',
-	),
-	array(
-			'id_page'=>'1737192446568240',
-			'name'=>' : 1737192446568240 : Dokter Skincare Indonesia - Drw Skincare jogja',
-			'token'=>'EAANZBuUrzl8QBAM2AboEjOi6PMnr8djLKZANkzYeM9cy77if3IHaH3Ri2WsO8IAjcwbWEvGt5M2SXpB3CbR7pLOfkMt4ZCF8Fk50sFZBB9IZAAqYCoMdlYBg10H5aWPVJI1qGCDCjrjKss8KC9xqkA4RdtqOInCqJvro2PxZBj9QZDZD',
-	),
-	array(
-			'id_page'=>'1713650658852446',
-			'name'=>'1713650658852446 : Drw Skincare Indonesia',
-			'token'=>'EAANZBuUrzl8QBACQMyzDTsK3wKDvgIG6DHEqHEq0deJTZATejnNDh7QmjeJQW7KrJj6EJzV6t8ewqHAABNiHMsggBeDiZBvVaQfmp4pohlXNPGhwjp0reVP9TGuEYJrZACMPIARpVZBuPNQmX0JBBWZAgCZAFnkulDRMzxQhZCaogQZDZD',
-	),
-	array(
-			'id_page'=>'722974164471686',
-			'name'=>'722974164471686 : Drw Skincare Indonesia 1',
-			'token'=>'EAANZBuUrzl8QBACBeGUq4BUAtPOT8RpePB8YBDqEunEijLJa7LzXZBsqeG6EzcKNJd2NllwmUMBZCes6R3w62FuYbSjnwb2fFLRwXZB6EZA4xWCgwBapYZBkNVVrtGTdmRyCDwsGfG5ZCZBbawOrZBIbNNEBhGY3mGY6hLTcpXTimQgZDZD',
-	),	
-	
-	//dokter.drw.skincare@gmail.com FB NITA Drw-Skincare
-	
-	/*array(
-			'id_page'=>'223460894713363',
-			'name'=>' 223460894713363 : Nita Drw-skincare Jogja',
-			'token'=>'EAAYOHZASTZCD4BAMtAoGz7Aw3yLZCvnSCcglq3sfPsHj0rrBeySUVnj2XcCmf1HL329oWXzEgdy2MjFGkih7KHC4uq9rUs0VViU8iNup8yGuRZCdg0xD3WLSP8oCzAVsqSqYUxEDL1WgajoMwNKLVeFHKG69wfEZD',
-	)*/
-	
-	
-	
-	//111971472563897 : Azimya Sabiya
-	
-	array(
-			'id_page'=>'111971472563897',
-			'name'=>' Azimya Sabiya drskincare4@gmail.com',
-			'token'=>'EAACjTyZAtZAFQBALmBtKjX9sqsZAMuZBbwLZAUU8rnAup0WyUmoSVkpO2S31b3kgaTKUiUBQ1F0jd1HAaZB6gZB5sxia61W1zMIBV5TnAmdbTjigylhOMfWicfpgMA5sgkLetKG8WZBU3L1vO5OFCZBlUF8tplaplop8gM7PLaZBTw6gZDZD',
-	),
-	//111971472563897 : Azimya Sabiya
-	
-	array(
-			'id_page'=>'123654658059571',
-			'name'=>' 	123654658059571 : Azka Zaina Zaina drskincare6@gmail.com',
-			'token'=>'EAAHSONl9g5oBACeuTAVH1MElyliKsW9J1vZBWmsNhuZA4gNheTRTf8VXbPbFT6y776dGnrkDzrqSZBvMiWKw8SWZA3z7ZB5cIvUT3VoknfId07vwsE3XwAVHQPGZAOHGPbqjRnRseoyGZBSKTtAlqqh2RLlJrpb3TatlHomcbG8ZCQZDZD',
-	)
-);
 $username = "root";
 $password = "nitaarjint111085";
 $hostname = "localhost"; 
@@ -175,11 +403,11 @@ $dbhandle = mysql_connect($hostname, $username, $password)
 // echo "Connected to MySQL<br>";
 
 //select a database to work with
-$selected = mysql_select_db("drskincare",$dbhandle)
+$selected = mysql_select_db("drwskincaresys",$dbhandle)
   or die("Could not select spam_fanspage");
 
 
-if(isset($_GET['pg'])){
+if(isset($_GET['pg']) && $_GET['pg']!='semua'){
 	$keyr=$_GET['pg'];
 }else{
 	shuffle($page_idx);
@@ -188,15 +416,18 @@ if(isset($_GET['pg'])){
 	shuffle($page_idx);
 	$keyr=rand(0,count($page_idx));
 }
+
 if(isset($_GET['limit'])){
 	$limit=$_GET['limit'];
 }else{
-	$limit=3;
+	$limit=1;
 }
 //execute the SQL query and return records
 /*if($_GET['pg']==1){*/
 if(isset($_GET['id_post'])){ $where='WHERE id='.$_GET['id_post'].'';}else{ $where='';}
 $result = mysql_query("SELECT * from posts ".$where." Order by rand() limit ".$limit."");
+
+// echo "SELECT * from posts ".$where." Order by rand() limit ".$limit."";die;
 /*}elseif($_GET['pg']==2){
 $result = mysql_query("SELECT * from posts  WHERE id > 27 Order by rand()");
 }else{
@@ -216,21 +447,22 @@ $page_access_token = 'CAAQNFC7OuZCUBAIKGuyjOg2WTqkb53viEr1I3zN1l8OYMqAkbWZCIzYDn
 
 
 $page_idy = $page_idx[$keyr];
-$page_id=$page_idx[$keyr]['id_page'];
-$page_access_token=$page_idx[$keyr]['token'];
-  // echo '<pre>';
- // print_r($page_id.'<br />');
- // print_r($page_access_token);
-// print_r($page_idx[$keyr]);
-// print_r($_GET);
-  // die;
+$page_id=$page_idx[$keyr]['id'];
+$page_access_token=$page_idx[$keyr]['access_token'];
+
+
+  
 while ($row = mysql_fetch_array($result)) { 
 
 	$data['picture'] = $row['picture'];
-	$data['link'] = $row['link'];
+	if($row['link']==''){
+		$data['link'] ='http://sys.dr-skincare.com/uploads/postdrw/'.$row['images'];
+	}else{
+		$data['link'] =$row['link'];
+	}
 	$data['message'] = ''.$row['caption'].'
 	
-						Kontak Agen Kami sms/wa : 083867950887	BBM : 5B907396
+						CLOSE ORDER di SHopee Silahkan order manual hub kontak di bawah
 						
 						'.$row['message'] .'
 						nita riwahyuni 
@@ -238,26 +470,51 @@ while ($row = mysql_fetch_array($result)) {
 						sms/wa : 083867950887
 						line : nita-drskincare
 						fb   : januari.nita
-						BBM : 7BCFB7E3
-						BBM : 5B907396
+						BBM   DA1A673D 
+						BBM   D9EDE4FF 
 						---------------------------------------------------------------------
-						
+						www.dr-skincare.com
 						DRW Skincare DrSkincare.
 						nita riwahyuni Agen jogja Sleman
 						dr skincare,dr skincare
 						drw skincare, drw skincare, drw skincare, drw skincare, nita jogja , nita agen jogja
-						#dwrskicare #drskincare #kecantikan #beauty #nitadrwskincarejogja #nitariwahyuni #drskincaredotcom #jogja';
+						#dwrskicare #jerawat #kecantikan #beauty #nitadrwskincarejogja #nitariwahyuni #perawatan #jogja #acne #cream #glow';
 	$data['caption'] = $row['caption'];
 	$data['description'] = $row['description'];
 	$data['access_token'] = $page_access_token;
-	// echo '<pre>';
-	// print_r($data);
-	// die;
-	// echo '<img src="'.$row['picture'].'" /> <br />';
-	// echo ''.$row['picture'].' <br />';
-	// echo '<a href="'.$row['link'].'">'.$row['caption'].'</a> <br />';
-	$post_url = 'https://graph.facebook.com/'.$page_id.'/feed';
+
+
+		// echo '<pre>';
+		// print_r($data['access_token']);
+		// echo '</pre>';
 	
+	if($_GET['pg']=='semua'){
+		foreach($page_idx as $ky=>$datapage){
+			$data['access_token'] = $datapage['access_token'];
+			$post_url = 'https://graph.facebook.com/'.$datapage['id'].'/feed <br />';
+			// echo $data['access_token'].'<br />';
+			$return=request($post_url,$data);
+			
+			echo "<a href='https://www.facebook.com/".$datapage['id']."'>".$datapage['name']."</a><br />";
+			echo $row['caption']."<br />";
+			echo $return."<br />";
+		}
+
+	}else{
+		$post_url = 'https://graph.facebook.com/'.$page_id.'/feed';
+		// echo $post_url;die; 
+		$return=request($post_url,$data);
+		echo "<a href='https://www.facebook.com/".$page_id."'>".$page_idx[$keyr]['name']."</a><br />";
+		echo $row['caption']."<br />";
+		echo $return."<br />";
+	}
+	
+	
+
+	
+}
+
+function request($post_url,$data){
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $post_url);
 	curl_setopt($ch, CURLOPT_POST, 1);
@@ -265,14 +522,9 @@ while ($row = mysql_fetch_array($result)) {
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$return = curl_exec($ch);
 	curl_close($ch);
-	echo $row['caption']."<br />";
-	echo $return."<br />";
-	echo $page_id."<br />";
-	echo $page_idx[$keyr]['name']."<br /><br /> ";
 	
+	return $return;
 }
-
-
 
 
 ?>
